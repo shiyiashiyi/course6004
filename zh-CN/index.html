@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8"/>
+    <title>计算结构</title>
+    <link rel="stylesheet" href="../labs/tools/github.css"/>
+  </head>
+  <body>
+    <article class="markdown-body">
+      <p align="center"><img style="border: none;" src="../title.png?raw=true" alt="Computation Structures"/></p>
+
+      <p align="center">
+        GitHub 仓库：<a href="https://github.com/computation-structures/course">https://github.com/computation-structures/course</a>
+      </p>
+
+      <p>计算结构（Computation Structures，6.004）是 MIT 电气工程与计算机科学系面向二年级本科生开设的课程。这是一门介绍数字系统设计与实现的入门课程，重点讲解多种技术中共同存在的结构性原则。</p>
+
+      <p>课程从器件层次开始，逐步建立一套层次化的构建模块：逻辑门、组合电路和时序电路、有限状态机、处理器，最后到完整系统。课程通过一系列设计实例同时讨论硬件机制和软件机制。练习题和实验旨在让学生获得设计数字系统的动手经验；在实验中，学生会完成一个 RISC 处理器的门级设计。</p>
+
+      <p>本仓库包含 1995 年秋季到 2018 年春季期间使用的课程资料，包括课件、整理后的讲义文本，以及由历年测验题组成的练习题，帮助学生复习和检验对材料的理解。仓库还包含 11 个在线实验链接，学生需要完成这些实验才能通过课程。希望这些资料能帮助对计算机工作原理感兴趣的学生，也能帮助向学生介绍数字世界的教学同行。</p>
+
+      <p>这些课程资料是许多 MIT 同事共同努力的成果。Steve Ward 是这门课程在 1980 年代早期的创始人；从许多方面看，你在这里看到的内容都源自他的构想。多年来参与贡献的还有 Bert Halstead、Silvina Hanono Wachman、Leonard McMillan、Greg Papadopoulos、Gill Pratt、Daniel Sanchez 和 Chris Terman。</p>
+
+      <p>祝学习顺利！</p>
+
+      <p><strong>说明：</strong>阶段 2 目前只完成中文入口。下方讲义和实验链接暂时指向英文原文，并标注“中文待翻译”；后续阶段完成对应中文文件后会切换到 `zh-CN/` 内部链接。</p>
+
+      <h2>课程大纲</h2>
+
+      <ul>
+        <li><b>第一部分：数字电路</b>
+          <ul>
+            <li>L01. 信息基础：<a href="../lectures/L01_Basics_of_Information.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L01_worksheet.pdf">练习题 PDF</a></li>
+            <li>L02. 数字抽象：<a href="../lectures/L02_The_Digital_Abstraction.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L02_worksheet.pdf">练习题 PDF</a></li>
+            <li>L03. CMOS 技术：<a href="../lectures/L03_CMOS_Technology.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L03_worksheet.pdf">练习题 PDF</a></li>
+            <li>L04. 组合逻辑：<a href="../lectures/L04_Combinational_Logic.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L04_worksheet.pdf">练习题 PDF</a></li>
+            <li>L05. 时序逻辑：<a href="../lectures/L05_Sequential_Logic.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L05_worksheet.pdf">练习题 PDF</a></li>
+            <li>L06. 有限状态机：<a href="../lectures/L06_Finite_State_Machines.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L06_worksheet.pdf">练习题 PDF</a></li>
+            <li>L07. 流水线电路：<a href="../lectures/L07_Pipelined_Circuits.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L07_worksheet.pdf">练习题 PDF</a></li>
+            <li>L08. 设计权衡：<a href="../lectures/L08_Design_Tradeoffs.html">讲义</a>（中文待翻译）</li>
+            <li>在线实验：
+              <ul>
+                <li><a href="../labs/lab1_cmos/lab.html">实验 1：CMOS 技术</a>（中文待翻译）</li>
+                <li><a href="../labs/lab2_adder/lab.html">实验 2：CMOS 加法器</a>（中文待翻译）</li>
+                <li><a href="../labs/lab3_fsm/lab.html">实验 3：有限状态机</a>（中文待翻译）</li>
+                <li><a href="../labs/lab4_alu/lab.html">实验 4：32 位 ALU</a>（中文待翻译）</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li><b>第二部分：可编程架构</b>
+          <ul>
+            <li>L09. 设计指令集：<a href="../lectures/L09_Designing_an_Instruction_Set.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L09_worksheet.pdf">练习题 PDF</a></li>
+            <li>L10a. 汇编语言：<a href="../lectures/L10a_Assembly_Language.html">讲义</a>（中文待翻译）</li>
+            <li>L10b. 计算模型：<a href="../lectures/L10b_Models_of_Computation.html">讲义</a>（中文待翻译）</li>
+            <li>L11. 编译器：<a href="../lectures/L11_Compilers.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L11_worksheet.pdf">练习题 PDF</a></li>
+            <li>L12. 过程与栈：<a href="../lectures/L12_Procedures_and_Stacks.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L12_worksheet.pdf">练习题 PDF</a></li>
+            <li>L13. 构建 Beta：<a href="../lectures/L13_Building_the_Beta.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L13_worksheet.pdf">练习题 PDF</a></li>
+            <li>L14. 缓存与存储层次结构：<a href="../lectures/L14_Caches_and_the_Memory_Hierarchy.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L14_worksheet.pdf">练习题 PDF</a></li>
+            <li>L15. Beta 的流水线化：<a href="../lectures/L15_Pipelining_the_Beta.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L15_worksheet.pdf">练习题 PDF</a></li>
+            <li>在线实验：
+              <ul>
+                <li><a href="../labs/lab5_assembly/lab.html">实验 5：汇编语言</a>（中文待翻译）</li>
+                <li><a href="../labs/lab6_procedures/lab.html">实验 6：过程与栈</a>（中文待翻译）</li>
+                <li><a href="../labs/lab7_beta/lab.html">实验 7：构建 Beta</a>（中文待翻译）</li>
+                <li><a href="../labs/lab8_caches/lab.html">实验 8：缓存</a>（中文待翻译）</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li><b>第三部分：计算机组成</b>
+          <ul>
+            <li>L16. 虚拟内存：<a href="../lectures/L16_Virtual_Memory.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L16_worksheet.pdf">练习题 PDF</a></li>
+            <li>L17. 处理器虚拟化：<a href="../lectures/L17_Virtualizing_the_Processor.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L17_worksheet.pdf">练习题 PDF</a></li>
+            <li>L18. 设备与中断：<a href="../lectures/L18_Devices_and_Interrupts.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L18_worksheet.pdf">练习题 PDF</a></li>
+            <li>L19. 并发与同步：<a href="../lectures/L19_Concurrency_and_Synchronization.html">讲义</a>（中文待翻译），<a href="../worksheets/pdfs/L19_worksheet.pdf">练习题 PDF</a></li>
+            <li>L20. 系统级通信：<a href="../lectures/L20_System_level_Communication.html">讲义</a>（中文待翻译）</li>
+            <li>L21. 并行处理：<a href="../lectures/L21_Parallel_Processing.html">讲义</a>（中文待翻译）</li>
+            <li><a href="../lectures/Wrap_up.html">课程总结</a>（中文待翻译）</li>
+            <li>在线实验：
+              <ul>
+                <li><a href="../labs/lab9_illop/lab.html">实验 9：模拟指令</a>（中文待翻译）</li>
+                <li><a href="../labs/lab10_tinyos/lab.html">实验 10：微型操作系统</a>（中文待翻译）</li>
+                <li><a href="../labs/lab11_design_project/lab.html">实验 11：优化 Beta</a>（可选，加分；中文待翻译）</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </article>
+  </body>
+</html>
