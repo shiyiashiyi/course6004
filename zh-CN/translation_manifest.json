@@ -2896,9 +2896,9 @@
       "extension": "html",
       "kind": "lecture_html",
       "priority": "high",
-      "status": "pending",
+      "status": "translated",
       "review": "pending",
-      "notes": "Preserve HTML structure, formulas, code, links, and asset references."
+      "notes": "Chinese lecture HTML generated in stage 3; requires human review for terminology and machine-translation phrasing."
     },
     {
       "source": "lectures/L04_Combinational_Logic.html",
@@ -2906,9 +2906,9 @@
       "extension": "html",
       "kind": "lecture_html",
       "priority": "high",
-      "status": "pending",
+      "status": "translated",
       "review": "pending",
-      "notes": "Preserve HTML structure, formulas, code, links, and asset references."
+      "notes": "Chinese lecture HTML generated in stage 3; requires human review for terminology and machine-translation phrasing."
     },
     {
       "source": "lectures/L05_Sequential_Logic.html",

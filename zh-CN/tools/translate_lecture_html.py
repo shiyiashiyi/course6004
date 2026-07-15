@@ -19,7 +19,7 @@ TARGET_DIR = ROOT / "zh-CN" / "lectures"
 MANIFEST = ROOT / "zh-CN" / "translation_manifest.json"
 CACHE_PATH = ROOT / "zh-CN" / "translation_cache_v2.json"
 
-SKIP_PARENTS = {"script", "style", "pre", "code", "textarea"}
+SKIP_PARENTS = {"script", "style", "pre", "code", "textarea", "title"}
 MANUAL = {
     "Lecture": "讲义",
     "Worksheet": "练习题",
@@ -101,6 +101,8 @@ def text_items(path: Path) -> list[str]:
 
     for node in soup.find_all(string=True):
         if not isinstance(node, NavigableString):
+            continue
+        if isinstance(node, Doctype):
             continue
         parent = node.parent
         if parent and parent.name in SKIP_PARENTS:
@@ -243,6 +245,8 @@ def build_file(filename: str, update: bool = True) -> dict[str, int | str]:
 
     for node in list(soup.find_all(string=True)):
         if not isinstance(node, NavigableString):
+            continue
+        if isinstance(node, Doctype):
             continue
         parent = node.parent
         if parent and parent.name in SKIP_PARENTS:

@@ -239,8 +239,8 @@ pending          尚未生成中文讲义
 | ---: | --- | ---: | ---: | ---: | --- | --- |
 | 1 | L01 Basics of Information | 193 | 32976 | 2 | completed-draft | `zh-CN/lectures/L01_Basics_of_Information.html` |
 | 2 | L02 The Digital Abstraction | 132 | 31311 | 2 | completed-draft | `zh-CN/lectures/L02_The_Digital_Abstraction.html` |
-| 3 | L03 CMOS Technology | 148 | 41829 | 3 | pending | `zh-CN/lectures/L03_CMOS_Technology.html` |
-| 4 | L04 Combinational Logic | 160 | 43407 | 3 | pending | `zh-CN/lectures/L04_Combinational_Logic.html` |
+| 3 | L03 CMOS Technology | 147 | 41825 | 3 | completed-draft | `zh-CN/lectures/L03_CMOS_Technology.html` |
+| 4 | L04 Combinational Logic | 159 | 43403 | 3 | completed-draft | `zh-CN/lectures/L04_Combinational_Logic.html` |
 | 5 | L05 Sequential Logic | 135 | 34908 | 2 | pending | `zh-CN/lectures/L05_Sequential_Logic.html` |
 | 6 | L06 Finite State Machines | 140 | 36582 | 2 | pending | `zh-CN/lectures/L06_Finite_State_Machines.html` |
 | 7 | L07 Pipelined Circuits | 124 | 31432 | 2 | pending | `zh-CN/lectures/L07_Pipelined_Circuits.html` |
@@ -472,5 +472,6 @@ zh-CN/lectures/lecture_slides/
 8. 全量质量检查。
 
 这个顺序最稳：先做网页和入口，马上能用；再做实验和练习；最后处理最重的 PPTX。
+
 
 
